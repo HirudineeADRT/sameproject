@@ -1,0 +1,76 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "ce34e908-77ce-476d-9e2c-3c82bc57d831": {
+        "id": "ce34e908-77ce-476d-9e2c-3c82bc57d831",
+        "parent": null,
+        "name": "sameproject",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "a5a7fc8e-50c0-4efe-b5ee-3d8630fd1bac"
+        ],
+        "isRemovable": false,
+        "filePath": "sameproject"
+      },
+      "a5a7fc8e-50c0-4efe-b5ee-3d8630fd1bac": {
+        "id": "a5a7fc8e-50c0-4efe-b5ee-3d8630fd1bac",
+        "parent": "ce34e908-77ce-476d-9e2c-3c82bc57d831",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "sameproject/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "ce34e908-77ce-476d-9e2c-3c82bc57d831",
+    "openFiles": [
+      "a5a7fc8e-50c0-4efe-b5ee-3d8630fd1bac"
+    ],
+    "currentFileId": "a5a7fc8e-50c0-4efe-b5ee-3d8630fd1bac",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "sameproject",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1571916597028
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "sameproject",
+      "url": "https://github.com/HirudineeADRT/sameproject"
+    }
+  }
+}
